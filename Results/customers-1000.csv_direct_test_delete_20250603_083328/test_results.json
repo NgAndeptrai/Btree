@@ -1,0 +1,31 @@
+{
+    "timestamp": "2025-06-03 08:33:28",
+    "dataset_info": {
+        "name": "customers-1000.csv",
+        "size": 1001,
+        "fields": [
+            "Index",
+            "Customer Id",
+            "First Name",
+            "Last Name",
+            "Company",
+            "City",
+            "Country",
+            "Phone 1",
+            "Phone 2",
+            "Email",
+            "Subscription Date",
+            "Website"
+        ]
+    },
+    "test_info": {
+        "operation": "delete",
+        "key": 10000
+    },
+    "results": {
+        "array_time": 0.00016339999274350703,
+        "btree_time": 6.0999998822808266e-05,
+        "success_array": false,
+        "success_btree": null
+    }
+}

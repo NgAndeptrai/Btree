@@ -1,0 +1,43 @@
+{
+    "timestamp": "2025-06-03 08:32:57",
+    "dataset_info": {
+        "name": "customers-1000.csv",
+        "size": 1001,
+        "fields": [
+            "Index",
+            "Customer Id",
+            "First Name",
+            "Last Name",
+            "Company",
+            "City",
+            "Country",
+            "Phone 1",
+            "Phone 2",
+            "Email",
+            "Subscription Date",
+            "Website"
+        ]
+    },
+    "test_info": {
+        "operation": "insert",
+        "key": 100
+    },
+    "results": {
+        "array_time": 1.7400016076862812e-05,
+        "btree_time": 1.6099977074190974e-05,
+        "data": {
+            "Index": 100,
+            "Customer Id": 100,
+            "First Name": "firstname_100",
+            "Last Name": "lastname_100",
+            "Company": "company_100",
+            "City": "city_100",
+            "Country": "country_100",
+            "Phone 1": "+52-826-8796283",
+            "Phone 2": "+43-641-8722511",
+            "Email": "user100@example.com",
+            "Subscription Date": "2022-04-25",
+            "Website": "https://www.company100.com"
+        }
+    }
+}
